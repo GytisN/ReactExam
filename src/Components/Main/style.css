@@ -1,0 +1,27 @@
+.photo-size {
+  width: 22%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.photo-size img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo-size h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.photo-size p {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
